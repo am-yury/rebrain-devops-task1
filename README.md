@@ -3,7 +3,7 @@
 
 # Конфигурация nginx на все случаи жизни
 ## Предыстория
-nginx [engine x] — это HTTP-сервер и обратный прокси-сервер, почтовый прокси-сервер, а также TCP/UDP прокси-сервер общего назначения, изначально написанный [Игорем Сысоевым](http://sysoev.ru/). Уже длительное время он обслуживает серверы многих высоконагруженных российских сайтов, таких как [Яндекс](http://www.yandex.ru/), [Mail.Ru](http://mail.ru/), [ВКонтакте](http://vk.com/) и [Рамблер](http://www.rambler.ru/). 
+**nginx [engine x]** — это HTTP-сервер и обратный прокси-сервер, почтовый прокси-сервер, а также TCP/UDP прокси-сервер общего назначения, изначально написанный [Игорем Сысоевым](http://sysoev.ru/). Уже длительное время он обслуживает серверы многих высоконагруженных российских сайтов, таких как [Яндекс](http://www.yandex.ru/), [Mail.Ru](http://mail.ru/), [ВКонтакте](http://vk.com/) и [Рамблер](http://www.rambler.ru/). 
 
 ## Цель проекта
 Каждый пользователь сталкивался с проблемой настройки веб сервера nginx. Мы решили объединить все сценарии конфигурации в одном файле, чтобы выполнялись следующие критерии:
@@ -12,20 +12,20 @@ nginx [engine x] — это HTTP-сервер и обратный прокси-�
 3. Соответствие best-practice
 
 ### Лицензионное соглашение nginx
-> Copyright (C) 2002-2021 Igor Sysoev
+> *Copyright (C) 2002-2021 Igor Sysoev
 > Copyright (C) 2011-2023 Nginx, Inc.
-> All rights reserved.
+> All rights reserved.*
 >
-> Redistribution and use in source and binary forms, with  or without
+> *Redistribution and use in source and binary forms, with  or without
 > modification, are permitted provided that the following conditions
-> are met:
-> 1. Redistributions of source code must retain the above copyright
->    notice, this list of conditions and the following disclaimer.
-> 2. Redistributions in binary form must reproduce the above copyright
+> are met:*
+> 1. *Redistributions of source code must retain the above copyright
+>    notice, this list of conditions and the following disclaimer.*
+> 2. *Redistributions in binary form must reproduce the above copyright
 >    notice, this list of conditions and the following disclaimer in the
->    documentation and/or other materials provided with the distribution.
+>    documentation and/or other materials provided with the distribution.*
 >
-> THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+> *THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
 > ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 >  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
 > ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
@@ -35,7 +35,7 @@ nginx [engine x] — это HTTP-сервер и обратный прокси-�
 > HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 > LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 > OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-> SUCH DAMAGE.
+> SUCH DAMAGE.*
 
 
 ### Использование
@@ -67,7 +67,7 @@ git clone https://gitlab.rebrainme.com/devops_users_repos/4756/rebrain-devops-ta
 ```
 
 ### История версий
-|номер версии|изменения|дата выпуска|
+|Номер версии|Добавленные изменения|Дата выпуска|
 |:---:|:---:|:---:|
 |v1.0|первая версия|11.10.2022|
 |v1.0.1|багфиксы|20.10.2022|
